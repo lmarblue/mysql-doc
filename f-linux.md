@@ -2,7 +2,7 @@
   * Linux历史
   * 人物介绍  
   * Linux安装
-  * Linux
+  * Linux命令
   * Vmware tools安装
   * Linux下vim安装
   * vim的配置
@@ -39,7 +39,8 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
   1. 之后点击下一步并设置虚拟机的空间
   1. 设置你的Linux的用户名以及密码
   1. 安装完成
-  
+### Linux命令
+
   
   
   
