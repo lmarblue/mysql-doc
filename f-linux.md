@@ -32,7 +32,14 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
   
   Linus Torvalds：Linux之父，芬兰赫尔辛基大学
 ### Linux安装
-####步骤
-  1.
+#### 步骤
+  1. 打开VMware Workstation（一个安装虚拟机的软件）
+  1. 点击Fil下的new Virtual Machine Wizard
+  1. 点击下一步之后把你Linux的镜像文件导入
+  1. 之后点击下一步并设置虚拟机的空间
+  1. 设置你的Linux的用户名以及密码
+  1. 安装完成
+  
+  
   
   
