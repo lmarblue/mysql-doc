@@ -83,7 +83,18 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
   1. halt        关机  
   1. reboot      重启
 ### Vmware tools安装
-  1. 在虚拟机右下角点击CD/DVD2,在点击
+  1. 在虚拟机右下角点击CD/DVD2,再点击setting将linux.iso导入进来
+  1. 将VMwareTools-9.2.0-799703.tar.gz复制到根目录下,如下操作可实现此操作
+     - cd /media/
+     - cd linux/
+     - cd VMware\ Tools
+     - ls
+     - cp VMwareTools-9.2.0-799703.tar.gz ~l
+     - cd
+     - ls
+  1. tar xvf VMwareTools-9.2.0-799703.tar.gz 将VMwareTools-9.2.0-799703.tar.gz解压缩 
+  1. cd Vmware-tools-distrib/
+  1. sudo ./....  执行.....文件集安装完成。
 
 
 
