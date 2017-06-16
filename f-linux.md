@@ -83,7 +83,7 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
   1. halt        关机  
   1. reboot      重启
 ### Vmware tools安装
-
+  1. 在虚拟机右下角点击CD/DVD2,在点击
 
 
 
