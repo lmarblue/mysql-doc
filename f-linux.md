@@ -65,6 +65,21 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
   1. more、less   分页显示文本文件内容
   1. head、tail   显示文件头、尾内容  
   1. ctrl+alt+F1  命令行全屏模式
+#### 打包压缩相关命令
+  1. gzip：
+  1. bzip2：
+  1. tar:     打包压缩
+      - `-c`  归档文件  tar  -cvf
+       - `-x` 压缩文件
+       - `-z` gzip压缩文件  tar  -zcvf
+       - `-j` bzip2压缩文件 tar  -jcvf
+       - `-v` 显示压缩或解压缩过程 v(view)
+       - `-f` 使用档名
+#### 关机/重启机器
+
+   
+
+
 
 
 
