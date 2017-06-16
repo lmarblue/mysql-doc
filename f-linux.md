@@ -5,6 +5,7 @@
   * Linux命令
   * Vmware tools安装
   * Linux下vim安装
+  * vim的使用
 ## 主要的内容
 ### Linux历史
   ![Image of Yaktocat]( https://nts.newbieol.com/static/k6/mySQL/class-001/img/Unix_timeline.png)
@@ -81,6 +82,10 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
       - now     立刻关机
   1. halt        关机  
   1. reboot      重启
+#### 软件的安装/卸载
+  1. sudo apt-get install  ......    安装
+  1. sudo apt-get remove  ......     卸载
+  1. sudo apt-get update  ......     更新软件
 ### Vmware tools安装
   1. 在虚拟机右下角点击CD/DVD2,再点击setting将linux.iso导入进来
   1. 将VMwareTools-9.2.0-799703.tar.gz复制到根目录下,如下操作可实现此操作
@@ -96,6 +101,17 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
   1. sudo ./....  执行.....文件就安装完成。
 ### Linux下vim安装
   - sudo apt-get install vim
+### vim使用
+  1. :q            退出
+  1. :q!           强制退出
+  1. :wq           保存并退出
+  1. :set number   显示行号
+  1. :set nonumber 隐藏行号
+  1. /apache       在文档中查找apache 按n跳到下一个，shift+n上一个
+  1. yyp           复制光标所在行，并粘贴
+  1. h(左移一个字符←)、j(下一行↓)、k(上一行↑)、l(右移一个字符→)
+
+
 
 
 
