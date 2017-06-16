@@ -20,7 +20,7 @@
   |------ |-------|------|-------|-------
   | 学校号 | scm | smallint | 2字节 |外键
   |系编号|acno|smallint|2字节|外键
-  |主键为(scm,acno)|
+  * 主键为(scm,acno)
 
 ### Student（学生表）
   |字段名  | 英文名 | 类型  | 长度  | 约束条件 
@@ -45,7 +45,7 @@
   |学号|sno|smallint|2字节|外键
   |课程号|cno|smallint|2字节|外键
   |成绩|score|smallint|2字节|0<=score<=100
-  |主键为(sno,cno)|
+  * 主键为(sno,cno)
   
   
   
