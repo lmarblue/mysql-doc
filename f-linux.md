@@ -76,6 +76,16 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
        - `-v` 显示压缩或解压缩过程 v(view)
        - `-f` 使用档名
 #### 关机/重启机器
+  1. shutdown
+      - `-r`  关机重启
+      - `-h`  关机不重启
+      - now     立刻关机
+  1. halt        关机  
+  1. reboot      重启
+### Vmware tools安装
+
+
+
 
    
 
