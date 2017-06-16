@@ -94,7 +94,10 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
      - ls
   1. tar xvf VMwareTools-9.2.0-799703.tar.gz 将VMwareTools-9.2.0-799703.tar.gz解压缩 
   1. cd Vmware-tools-distrib/
-  1. sudo ./....  执行.....文件集安装完成。
+  1. sudo ./....  执行.....文件就安装完成。
+### Linux下vim安装
+  - sudo apt-get install vim
+
 
 
 
