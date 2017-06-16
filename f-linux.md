@@ -5,7 +5,6 @@
   * Linux命令
   * Vmware tools安装
   * Linux下vim安装
-  * vim的配置
 ## 主要的内容
 ### Linux历史
   ![Image of Yaktocat]( https://nts.newbieol.com/static/k6/mySQL/class-001/img/Unix_timeline.png)
