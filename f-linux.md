@@ -102,14 +102,15 @@ Ubuntu(自非洲南部祖鲁语或科萨语的“ubuntu”一词,译为乌班图
 ### Linux下vim安装
   - sudo apt-get install vim
 ### vim使用
-  1. :q            退出
-  1. :q!           强制退出
-  1. :wq           保存并退出
-  1. :set number   显示行号
-  1. :set nonumber 隐藏行号
-  1. /apache       在文档中查找apache 按n跳到下一个，shift+n上一个
-  1. yyp           复制光标所在行，并粘贴
-  1. h(左移一个字符←)、j(下一行↓)、k(上一行↑)、l(右移一个字符→)
+#### 文件命令
+  1. 打开单个文件  vim file
+  1. 同时打开多个文件  vim file1 file2 file3 ...
+  1. 在vim窗口中打开一个新文件  :open file
+  1. 在新窗口中打开文件  :split file
+  1. 切换到下一个文件   :bn
+  1. 切换到上一个文件   :bp
+  1. 查看当前打开的文件列表，当前正在编辑的文件会用[]括起来。  :args
+  1. 打开远程文件，比如ftp或者share folder  ：e ftp://192.168.10.76/abc.txt   :e \\qadrive\test\1.txt
 
 
 
