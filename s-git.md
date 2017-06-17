@@ -22,6 +22,18 @@
       Linus花了两周时间自己用C写了一个分布式版本控制系统，这就是Git！一个月之内，Linux系统的源码已经由Git管理了！牛是怎么定义的呢？大家可以体会一下。  
       Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitHub网站上线了，它为开源项目免费提供Git存储，无数开源项目开始迁移至GitHub，包括jQuery，PHP，Ruby等等。  
       历史就是这么偶然，如果不是当年BitMover公司威胁Linux社区，可能现在我们就没有免费而超级好用的Git了。  
-      
+### git安装
+  sudo apt-get install git
+### 使用git配置vim
+#### 步骤
+   1. git clone http://github.com/wangleihd/software.git  将software克隆过来
+   1. cd sofetware/  切到software目录下
+   1. cat software.sh  查看software.sh
+   1. sudo ./install.sh  执行install.sh
+   1. ./software.sh 执行software.sh
+#### 安装中文输入法
+   1. 完成上面的配置
+   1. 
+   
     
 
