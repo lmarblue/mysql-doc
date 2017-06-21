@@ -33,7 +33,15 @@
    1. ./software.sh 执行software.sh
 #### 安装中文输入法
    1. 完成上面的配置
-   1. 
+   1. 点击设置中的language并打开  
+   1. 点击install/remove language 选择Chinese并进行安装
+   1. 安装好后text entry 添加english(US)以及chinese(pinyin)
+   1. 重启虚拟机 sudo reboot
+### git基本命令
+####  
    
-    
-
+   
+   
+   
+   
+   
