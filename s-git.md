@@ -181,10 +181,43 @@
 
   git branch --set-upstream master origin/master
 
-  git branch --set-upstream develop origin/develop 
-   
-   
-   
-   
-   
-   
+  git branch --set-upstream develop origin/develop 
+### GitHub的基本使用
+#### 创建一个 github仓库
+  ![github仓库](https://nts.newbieol.com/static/k6/02.git-github-markdown/github/images/github-2.png)   
+#### GitHub仓库的使用
+  1. 当本地没有git仓库时
+    echo "# abc" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git remote add origin https://github.com/wangleihd/freeBook-H5.git
+    git push -u origin master
+  1. 当已经有仓库时
+    git remote add origin https://github.com/wangleihd/freeBook-H5.git
+    git push -u origin master
+  1. 也可直接下载这个项目
+    git clone https://github.com/wangleihd/freeBook-H5.git
+ ![创建好了的](https://nts.newbieol.com/static/k6/02.git-github-markdown/github/images/github-3.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
