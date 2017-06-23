@@ -42,15 +42,55 @@
   - sudo /etc/init.d/mysqld start 启动mysql服务
 
 ## workbench安装
+
+  - sudo apt-get install mysql-workbench
 ## MYSQL命令行操作
 ### 连接MSQL格式
+  - 连接到本机上的MYSQL
+  
+      `mysql -u root -p`
+  - 连接到远程主机上的MYSQL
+  
+      `假设远程主机的IP为：110.110.110.110，用户名为root,密码为abcd123。则键入以下命令： mysql -h110.110.1`
 ### 退出命令
+  exit(回车)  或者 quit(回车)
 ### 修改密码
+  mysqladmin -u用户名 -p旧密码 password 新密码
 ### 支持中文
+  - 在每次创建表的时候都在最后加上 character set = utf8 就可以很好的支持中文
+  - alter table information convert to character set utf8;（以创建了一个不支持中文的table时）
+
 ### 特殊的SELECT命令
+  - 显示MYSQL的版本   mysql> select version();
+  - 显示当前时间      mysql> select now();
+  - 显示年月日        SELECT DAYOFMONTH(CURRENT_DATE);
+  - 显示字符串        mysql> SELECT "welecome to my blog!";
+  - 当计算器用        mysql> select ((4 _4) / 10 ) + 25;
+  - 串接字符串        mysql> select CONCAT(f_name, " ", l_name) AS Name from employee_data where title = 'Marketing Executive';
+      
 ## Apache安装
+  - sudo apt-get update
+  - sudo apt-get install tasksel
+  - sudo tasksel
+## CGI
+  CGI(Common Gateway Interface) 是WWW技术中最重要的技术之一，有着不可替代的重要地位。CGI是外部应用程序（CGI程序）与WEB服务器之间的接口标准，是在CGI程序和Web服务器之间传递信息的过程。CGI规范允许Web服务器执行外部程序，并将它们的输出发送给Web浏览器，CGI将Web的一组简单的静态超媒体文档变成一个完整的新的交互式媒体。
 ## Apache开启CGI
+  - 需要在Apache中开启cgi支持
+  
+      sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/cgi.load
+  - 需要重启apache服务器
+  
+      service apache2 restart
+  - 需要运行的cgi文件的存放路径为:
+  
+      /usr/lib/cgi-bin
+  - 改完目录的权限, 方便对目录下的文件写.
+  
+      sudo mkdir /usr/lib/cgi-bin/sx
+      
+      sudo chmod 777 /usr/lib/cgi-bin/sx
 ## 安装mysql的C语言库
+
 ## MYSQL接口介绍
 ## CCGI 基本使用
 ## atom的安装以及使用
