@@ -18,3 +18,6 @@
    create table suser(sno varchar(32) primary key, password varchar(32) not null ,fl varchar(8),foreign key (sno) references student(sno))character set = utf8;
 ### 教师用户
    create table tuser(tno varchar(32) primary key, password varchar(32) not null ,fl varchar(8),foreign key (tno) references teacher(tno))character set = utf8;
+## 视图
+   - 只能在数据库内建，不能在c中建
+   - use  st;  create view viewts  asselect score.sno,sname,acno,score,cno  from  score,student  where student.sno=score.sno ;
