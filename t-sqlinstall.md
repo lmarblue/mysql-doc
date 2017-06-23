@@ -197,7 +197,8 @@
 ## atom中c的编译
   - 在便以前需要在Makefile中添加
       install:
-          cp `*`.cgi  /usr/lib/cgi-bin/sx
+      
+       cp `*`.cgi  /usr/lib/cgi-bin/sx
   - make
   - make install
     
