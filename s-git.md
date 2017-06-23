@@ -220,6 +220,7 @@
 ### 基本语法
 #### 标题
   ![标题](http://ww1.sinaimg.cn/large/6aee7dbbgw1effeaclhiyj20eh09cwez.jpg)  
+  
   标题是每篇文章都需要也是最常用的格式，在 Markdown 中，如果一段文字被定义为标题，只要在这段文字前加 # 号即可。
 #### 列表
   ![](http://ww4.sinaimg.cn/large/6aee7dbbgw1effew5aftij20d80bz3yw.jpg)
@@ -227,6 +228,37 @@
   只需要在文本前加入 > 这种尖括号（大于号）即可
   ![](http://ww3.sinaimg.cn/large/6aee7dbbgw1effezhonxlj20e009c3yu.jpg)
 #### 图表与链接
+  图片为：`![](){ImgCap}{/ImgCap}`
+
+  链接为：`[]()`
+  
+  ![](http://ww2.sinaimg.cn/large/6aee7dbbgw1efffa67voyj20ix0ctq3n.jpg)
+#### 粗体与斜体
+
+  Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就是粗体的语法，用一个 * 包含一段文本就是斜体的语法。
+#### 表格 
+  `|------|-----|------|(一般为属性列，这里有三列)
+   |------|-----|------|（这个是固定的，三列就是这样的||里面不写东西）
+   |------|------|------|（这里是第一行）`
+   
+   例如：
+   | Tables        | Are           | Cool  |
+   | ------------- |:-------------:| -----:|
+   | col 3 is      | right-aligned | $1600 |
+   | col 2 is      | centered      |   $12 |
+   | zebra stripes | are neat      |    $1 |
+#### 代码框
+  如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个esc下面的有～符号的这个键（不是～符号）把中间的代码包裹起来
+ ![](http://ww3.sinaimg.cn/large/6aee7dbbgw1effg1lsa97j20lt0a8dgs.jpg)、
+#### 分割线
+  分割线的语法只需要三个 `* `号
+  ![](http://ww3.sinaimg.cn/large/6aee7dbbgw1effgmnpgqlj210j0us44j.jpg)
+   
+   
+  
+
+  
+  
 
   
   
