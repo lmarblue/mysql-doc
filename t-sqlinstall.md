@@ -195,3 +195,9 @@
    - autocomplete-modules: 模块智能提示【node_modules】
 
 ## atom中c的编译
+  - 在便以前需要在Makefile中添加
+      install:
+          cp `*`.cgi  /usr/lib/cgi-bin/sx
+  - make
+  - make install
+    
