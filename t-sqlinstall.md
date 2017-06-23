@@ -172,6 +172,8 @@
 ## CCGI 基本使用
   - [CGIC官网链接](https://boutell.com/cgic/)
 ## atom的安装以及使用
+  - 安装  sudo apt-get install atom
+  - 打开  sudo atom . 
 ## Atom editor 开环境使用的插件
 
    - activate-power-mode：动感插件 atl + ctrl + o :打开插件
